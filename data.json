@@ -1,0 +1,73 @@
+{
+  "maps": [
+    "de_inferno",
+    "de_dust2",
+    "de_ancient",
+    "de_vertigo",
+    "de_nuke",
+    "de_anubis",
+    "de_overpass",
+    "de_mirage"
+  ],
+  "grenades_type": ["smoke", "flash", "HE"],
+  "grenades": {
+    "de_inferno": {
+      "smoke": [
+        {
+          "alias": "Inferno Smoke",
+          "description": "A smoke grenade for de_inferno",
+          "position": "A Site",
+          "link": "https://example.com/smoke/inferno"
+        },
+        {
+          "alias": "Inferno Smoke",
+          "description": "A smoke grenade for de_inferno",
+          "position": "B Site",
+          "link": "https://example.com/smoke/inferno"
+        }
+      ],
+      "flash": [
+        {
+          "alias": "Inferno Flash",
+          "description": "A flashbang for de_inferno",
+          "position": "B Site",
+          "link": "https://example.com/flash/inferno"
+        }
+      ],
+      "HE": [
+        {
+          "alias": "Inferno HE Grenade",
+          "description": "A high-explosive grenade for de_inferno",
+          "position": "Middle",
+          "link": "https://example.com/he/inferno"
+        }
+      ]
+    },
+    "de_dust2": {
+      "smoke": [
+        {
+          "alias": "Dust2 Smoke",
+          "description": "A smoke grenade for de_dust2",
+          "position": "A Site",
+          "link": "https://example.com/smoke/dust2"
+        }
+      ],
+      "flash": [
+        {
+          "alias": "Dust2 Flash",
+          "description": "A flashbang for de_dust2",
+          "position": "B Site",
+          "link": "https://example.com/flash/dust2"
+        }
+      ],
+      "HE": [
+        {
+          "alias": "Dust2 HE Grenade",
+          "description": "A high-explosive grenade for de_dust2",
+          "position": "Middle",
+          "link": "https://example.com/he/dust2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS:GO Info</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CS:GO Info</h1>
+    </header>
+    <div class="container">
+      <select id="map">
+        <option value="" disabled selected>Select Map</option>
+      </select>
+      <select id="grenadeType">
+        <option value="" disabled selected>Select Grenade Type</option>
+      </select>
+      <select id="position">
+        <option value="" disabled selected>Select Position</option>
+      </select>
+      <input
+        type="text"
+        id="grenadeAlias"
+        placeholder="Grenade Alias (Autocomplete)"
+      />
+      <button id="showVideo">Show Video</button>
+      <div id="videoContainer">
+        <!-- Embedded video and description will be displayed here -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
